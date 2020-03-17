@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar {
+    width: 80%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    position: relative;
+
+}
+
+.logo {
+    flex-basis: 50%;
+
+}
+
+.menu {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px ;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.menu span {
+   font-size: 18px;
+   color: #02bdc4;
+
+}
+
+.menu ul::before {
+    content: '';
+    height: 2px;
+    width: 70px;
+    background: #000;
+    position: absolute;
+    left: -80px;
+    top: 12px;
+}
+
+.menu-icon {
+    position: absolute;
+    right: 0;
+}
+
+.menu-icon img {
+    margin-left: 50px;
+
+}
+
+.banner {
+   display: flex;
+}
+
+.left-col {
+    flex-basis: 50%;
+    height: 85vh;
+    position: relative;
+
+}
+
+.banner-text {
+    width: 400px;
+    position: absolute;
+    left: 130px;
+    top: 0;
+}
+
+.banner-text h6 {
+    color: #999;
+    font-weight: 400;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.banner-text h6 ::after {
+    content: '';
+    height: 2px;
+    width: 70px;
+    background: #000;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.banner-text h1 {
+    font-size: 60PX;
+    font-weight: 400;
+    margin: 30PX 0;
+}
+
+.banner-text P {
+    font-size: 22px;
+
+}
+
+.banner-text h4 {
+   margin-top: 20px;
+   position: relative; 
+} 
+
+.banner-text h4::after {
+    content: '\276F';
+    font-size: 30px ;
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    transform: rotate(90deg);
+}
+
+.small-img {
+    width: 500px;
+    height: 170px;
+    background: #02bdc4;
+    display: flex;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 45px;
+    top: 70%;
+
+}
+
+.small-img p {
+    width: 275px;
+    line-height: 25px;
+    font-size: 14px;
+    padding: 10px 10px 0 20px;
+    
+
+}
+
+.small-img p span {
+    font-size: 15px;
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+
+}
+
+.small-img img {
+    position: absolute;
+    bottom: 55px;
+    right: 25px;
+
+}
+
+.black-line {
+    width: 200px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+}
+
+.black-line span {
+    height: 2px;
+    width: 20px;
+    background: #000;
+    top: 0;
+    left: 215px;
+
+
+}
+
+.black-line span::after {
+    content: '';
+    width: 10px;
+    height: 2px;
+    background: #000 ;
+    top: 0;
+    left: 40px;
+    
+}
+
+.right-col {
+    flex-basis: 50%;
+    position: relative;
+    padding-top: 2%;
+
+}
+
+.right-col img {
+    margin-left: 16%;
+
+}
+
+.line-2 {
+    bottom: 250px;
+    left: 0;
+    transform: rotate(90deg);
+
+}
+
+.social-icons {
+    position: absolute;
+    right: 75px;
+    bottom: 30px;
+
+}
+
+.social-icons img {
+    margin-left: 50PX;
+}
+
+.vertical-menu {
+    border-bottom: 2PX solid #000;
+    padding-bottom: 10PX;
+    position: absolute;
+    top: 250px;
+    left: -150px;
+    transform: rotate(-90deg);
+
+
+}
+
+.vertical-menu ul li {
+    display: inline-block;
+    margin-right: 12px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.vertical-menu span {
+
+}
